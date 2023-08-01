@@ -4,7 +4,9 @@ import javax.swing.*;
 
 public class Main {
     public static void main(String[] args) {
-    Gui.gui();
+        SwingUtilities.invokeLater(() -> {
+        Gui.gui();
     //add the method for the password generator in here
-    }
+    });
+}
 }
