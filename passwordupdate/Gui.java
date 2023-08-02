@@ -22,7 +22,10 @@ public class Gui {
         gbc.gridx = 2;
         gbc.gridy = 0;
         passpanel.add(lengthentry,gbc);
+//need to implement the program taking this value and passing it over to the passgen file
 
+
+        
         //Button to Generate Password.
         JButton generatepassButton = new JButton("Generate New Password");
         gbc.gridx = -2;
